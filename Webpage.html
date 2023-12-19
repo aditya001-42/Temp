@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color:#ffffff;
+            color: #333;
+        }
+        header{
+            background-color: #009688;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        section{
+            max-width: 800px;
+            margin: 20p auto;
+            padding: 20px;
+            background-color: #fff;
+        }
+        footer{
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        form{
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        label{
+            display: block;
+            margin-bottom: 8px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+        button{
+            color: #fff;
+            padding: 10px;
+        }
+        nav{
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+        nav a{
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+            margin: 0 10px;
+        }
+        video {
+            margin-left: 50vw;
+            transform: translate(-50%);
+        }
+        .container video {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Personal Blog</h1><br>
+    </header>
+
+    <!-- Navigation section -->
+    <nav>
+        <a href="#">Home</a> |
+        <a href="#courses">Courses</a> |
+        <a href="#services">Services</a> |
+        <a href="#contact">Contact</a>
+    </nav>
+    
+    <!-- Main content section -->
+    <section>
+        <h2>About Us</h2>
+        <p>Edunet Foundation is a leading training organization that specializes in providing high-quality courses in various fields, including technology, softskill, and personal development.</p>
+    </section>
+    
+    <!-- Courses section -->
+    <section id="courses">
+        <h2>Our Courses</h2>
+        <ul>
+            <li>Web Development</li>
+            <li>Data Science</li>
+            <li>Artificial Intelligence</li>
+            <li>Cyber security</li>
+            <li>Leadership Skills</li>
+        </ul>
+    </section>
+
+    <center>
+        <video width="320" height="240" controls>
+            <source src="mov_bbb.mp4" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+            Your browser does not support the video tag.
+          </video>
+    </center>
+    
+    <!-- Services section -->
+    <section id="services">
+        <h2>Our Services</h2>
+        <p>We offer a range of services, including:</p>
+        <ul>
+            <li>Customized Corporate Training</li>
+            <li>Online Learning Platforms</li>
+            <li>Project Guidence</li>
+            <li>Workshops and Seminars</li>
+        </ul>
+    </section>
+    
+    <!-- Contact section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or inquiries, please feel free to contact us:</p>
+        <p>Email: info@edunetfoundation.org</p>
+        <p>Phone: (123) 456-7890</p>
+    </section>
+
+    <form>
+        <h2>Contact Me</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required><br>
+
+        <label for="message">Message:</label>
+        <textarea name="message" id="message" rows="4" required></textarea><br>
+
+        <button type="submit">Submit</button><br>
+
+    </form>
+
+    
+
+    <aside></aside>
+
+    <footer><br>
+        &copy; 2023 My Personal Blog
+    </footer>
+</body>
+</html>
