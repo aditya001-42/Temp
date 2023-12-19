@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Average Calculator</title>
+</head>
+<body>
+
+    <h1>Average Calculator</h1>
+
+    <p>Enter the list of numbers separated by commas to calculate their average:</p>
+
+    <input type="text" id="numbersInput">
+
+    <button onclick="calculateAverage()">Calculate Average</button>
+
+    <script>
+        function calculateAverage() {
+            var numbersInput = document.getElementById("numbersInput").value;
+            var numbersArray = numbersInput.split(",");
+            var sum = 0;
+
+            for (var i = 0; i < numbersArray.length; i++) {
+                var number = parseFloat(numbersArray[i]);
+
+                if (!isNaN(number)) {
+                    sum += number;
+                }
+            }
+
+            if (numbersArray.length > 0) {
+                var average = sum / numbersArray.length;
+                alert("The average is: " + average);
+            } else {
+                alert("Please enter valid numbers.");
+            }
+        }
+    </script>
+
+</body>
+</html>
+￼Enter
