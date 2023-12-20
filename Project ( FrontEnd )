@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Aditya Kotame - Portfolio</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+    .jumbotron {
+      background-color: #343a40;
+      color: #ffffff;
+    }
+    section, form {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: ghostwhite;
+            box-sizing: border-box;
+            outline-style: outset; 
+    }
+    form {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            box-sizing: border-box;
+            outline-style: outset; 
+            
+    }
+
+        
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#portfolio">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  
+  <div id="home" class="jumbotron jumbotron-fluid text-center">
+    <div class="container">
+      <h1 class="display-4">Aditya Kotame</h1>
+      <p class="lead">Web Developer</p>
+
+      <div id="share" class="container mt-4">
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-github-alt"></a>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div id="about" class="container mt-4">
+    <h2>About Me</h2>
+    <p> I am passionate web developer with a strong foundation in front-end and back-end technologies
+        My journey in web development began during my studies at <b>KJCOEMR</b>, where I earned a degree in <b>B.E (Computer Engineering)</b> in <b>2025.</b> Since then, I have been dedicating to expanding my skill set and creating meaningful web experience.
+    </p>
+
+    <p>
+        In my work, I focus on building responsive and user-friendly websites. I enjoy collaborating with cross-functional teams to bring creative ideas to life. Wheather it's crafting clean and efficient code or staying up-to-dates with the latest industry trends, I commited to delivering high-quality solution. 
+    </p>
+
+    <p>
+        When I'm not coding, you can find me exploring new technologies, contributing to open source projects, or enjoying a good book. i belive in a continuous learning and strives to stay ahead in the ever-evolving field of web development.
+    </p>
+  </div>
+
+  <div id="portfolio" class="container mt-4">
+    <h2>Portfolio</h2>
+
+    <div id="education" class="container mt-4">
+        <h3>Education</h3>
+        <p>Bacholors Engineering in Computer Science</p>
+        <p>(2025)</p>
+   </div>
+
+    <div id="Skills" class="container mt-4">
+        <h3>Skills</h3>
+        <UL>
+            <LI>HTML</LI>
+            <LI>CSS</LI>
+            <LI>JavaScript</LI>
+            <LI>jQuery</LI>
+            <LI>Bootstrap</LI>
+        </UL>
+   </div>
+
+   <div>
+    
+   </div>
+  </div>
+  
+    
+
+
+ 
+  <div id="contact" class="container mt-4">
+    <h2>Contact Me</h2>
+    <form action="#" method="post">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" class="form-control" id="name" name="name" required>
+        </div>
+
+        <div class="form-group"> 
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+        </div>
+
+        <div class="form-group"> 
+            <label for="message">Message:</label>
+            <textarea class="form-control" name="message" id="message" rows="4"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form><br>
+    
+  </div>
+
+  <!-- Bootstrap JS and Popper.js -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
